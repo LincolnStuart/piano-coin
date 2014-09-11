@@ -1,13 +1,13 @@
 #include <ReadPin.h>
 
-int pinSpeaker = 13;
-int pinC = 12;
-int pinD = 9;
-int pinE = 7;
-int pinF = 2;
-int pinG = 3;
-int pinA = 4;
-int pinB = 10;
+const int pinSpeaker = 13;
+const int pinC = 12;
+const int pinD = 9;
+const int pinE = 7;
+const int pinF = 2;
+const int pinG = 3;
+const int pinA = 4;
+const int pinB = 10;
 ReadPin read;
 
 void setup(){
